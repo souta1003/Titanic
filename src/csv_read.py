@@ -4,8 +4,8 @@ from sklearn import tree
 import warnings
 warnings.filterwarnings('ignore')
 
-train = pd.read_csv("./data/train.csv")
-test = pd.read_csv("./data/test.csv")
+train = pd.read_csv("../data/train.csv")
+test = pd.read_csv("../data/test.csv")
 train_shape = train.shape
 test_shape  = test.shape
 pd.set_option("max_columns", 12)
